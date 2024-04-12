@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo img {
+  width: 176px;
+  height: 57px;
+}
+
+.nav-text {
+  font-size: 12px;
+}
+
+.nav-one {
+  background-color: #f8f8f8;
+}
+.nav-text-one {
+  font-size: 11px;
+}
+
+.nav-text-two {
+  font-size: 15px;
+}
+
+.nav-link {
+  color: #00528a;
+  font-weight: 700;
+}
+
+/* *** dropdown *** */
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown-list {
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: 999;
+  width: 150px;
+  display: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.dropdown-list a {
+  display: block;
+  font-size: 14px;
+  line-height: 1.24;
+  text-decoration: none;
+  color: #686c71;
+  text-transform: none;
+  padding: 3px 3px;
+  margin-bottom: 5px;
+  letter-spacing: 0;
+}
+
+ul li a:hover {
+  background: #fff;
+}
+
+ul li:hover ul.dropdown-list {
+  display: block;
+}
+
+.nav-item a{
+  padding-left: 10px;
+}
+
+
+.nav-link:hover {
+  color: #f8991d;
+}
+
+.full__header {
+  /* background: url(images/shutterstock-1477971653.jpg) bottom center /cover no-repeat; */
+  position: relative;
+  background: url(images/shutterstock-1767880625.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+}
+
+.header__text {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 56px;
+}
+
+.list {
+  width: 100%;
+  background-color: #f3f4f4;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list p {
+  width: 50%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.list p:hover {
+  background-color: #f8991d;
+}
+
+.text-trend {
+  padding: 50px 0px;
+}
+
+.text-trend h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* **** Slide *** */
+
+/* *** Power Your Tomorrow *** */
+.content-power {
+  background-image: url(images/11.png), url(images/12.png);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 400px, auto 400px;
+}
+
+.text-content-power {
+  background-image: url(images/07.png);
+  background-repeat: repeat-y;
+  background-size: 80% auto;
+  background-position: top center;
+}
+.text-content-power h1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text-content-power p {
+  font-size: 20px;
+  line-height: 1.7;
+  padding-bottom: 30px;
+}
+
+.one-img {
+  width: 490px;
+  position: relative;
+}
+
+.one-img.hover-custom {
+  background-image: linear-gradient(rgba(241, 242, 242, 0) 0%, #f1f2f2 100%);
+  color: #f99c24;
+  border-bottom: 4px solid #f99c24;
+}
+
+.one-img.hover-custom::after {
+  content: " ";
+  background: url(https://www.coxautoinc.com/wp-content/uploads/2022/02/arrow-down.svg);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: top center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.one-img img {
+  align-items: center;
+  margin: auto;
+}
+.one-img p {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 50px 20px;
+  min-height: 181px;
+}
+
+.descrtion {
+  display: none;
+}
+.descrtion.active {
+  display: block;
+}
+.learn-more {
+  margin-top: 50px;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.learn-more p {
+  margin-top: 50px;
+  margin: auto;
+  text-align: center;
+  width: 1120px;
+  height: 64px;
+}
+
+.button-text {
+  background-color: #f99c24;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.button-text:hover {
+  color: #f1f2f2;
+}
+
+/* *** text family *** */
+.text-content-family {
+  margin-top: 30px;
+  padding-bottom: 300px;
+  background-image: url(images/Hexagons-Right-2.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+}
+
+.text-content-family h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #4db0de;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.text-content-family p {
+  font-size: 20px;
+}
+
+.list-out {
+  margin: auto;
+}
+
+.list-out-family {
+  font-size: 18px;
+  line-height: 18px;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.list-out-family:hover {
+  color: #f99c24;
+}
+
+.footer-list-one {
+  width: 80%;
+  margin: auto;
+}
